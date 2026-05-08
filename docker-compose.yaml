@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  frontend:
+    build: .
+    working_dir: /workspace/frontend
+    command: npm run dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/workspace
+
+  agent:
+    build: .
+    working_dir: /workspace/agent
+    command: uv run python main.py
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - .:/workspace
