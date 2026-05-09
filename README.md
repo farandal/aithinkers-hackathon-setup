@@ -1,5 +1,8 @@
 ### **PoC Técnico para A2UI, CopilotKit, AG-UI y MCP**
 
+[![Demo en YouTube](https://img.youtube.com/vi/8tolfZjvtBQ/maxresdefault.jpg)](https://youtu.be/8tolfZjvtBQ)
+
+
 El proyecto consistirá en implementar un “laboratorio” dinámico, también conocido como panel de trabajo, utilizando A2UI, CopilotKit, AG-UI y MCP siguiendo un patrón de **UI Generativa Declarativa**, lo que permitirá al agente elegir la disposición y los componentes óptimos para mostrar los datos del laboratorio según la información devuelta por el Agente a través de un MCP que ejecutará tareas específicas mediante sus herramientas. La interfaz será similar a **NotebookLm**, un UI tipo chat, que mostrará en una barra lateral componentes personalizados de acuerdo con la salida del agente.
 
 #### **1\. Componente de Laboratorio (BYOC)**
