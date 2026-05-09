@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y python3 python3-pip curl \
 WORKDIR /workspace
 
 # Instalar CopilotKit CLI globalmente
-RUN npm install -g cpk-cli@latest
+#RUN npm install -g cpk-cli@latest
 
 # Copiar archivos del proyecto
 COPY . .
